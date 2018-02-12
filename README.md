@@ -20,6 +20,8 @@ cd deloitte
 
 Provide all of the necessary settings in files config.py and app/__init__.py
 
+#### NOTE: to actually send email from your google account, you might need to lower your security settings.
+
 Install requirements
 ```
 pip install -r requirements.txt
