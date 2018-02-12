@@ -45,17 +45,6 @@ celery = make_celery(app)
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 
 app.config.from_object(Config)
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-#
-# # Flask-Mail configuration
-#
-# app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-# app.config['MAIL_PORT'] = 465
-# app.config['MAIL_USERNAME'] = 'triksrimer@gmail.com'
-# app.config['MAIL_PASSWORD'] = '2Cfrehf hfcwdtnfkf uhecnysvb ukfpfvb'
-# app.config['MAIL_USE_TLS'] = False
-# app.config['MAIL_USE_SSL'] = True
-# app.config['MAIL_DEFAULT_SENDER'] = 'me'
 
 
 mail = Mail(app)

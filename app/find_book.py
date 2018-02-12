@@ -12,7 +12,6 @@ import bisect
 from .models import Book
 
 
-
 class FindBook:
     def __init__(self, search_text, path_to_books=None):
         """if specified path_to_books should be a list of actual books like [/path/to/book.pdf]"""
