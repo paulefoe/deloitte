@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Deloitte</title>
+      {% else %}
+      <title>Welcome to Deloitte search books</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Deloitte: <a href="/">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

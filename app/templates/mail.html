@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for res in result %}
+    {% for q,v in res.items() %}
+        <h4>Found in the book "{{ q }}": </h4> <br>
+        {% for c,z in v.items() %}
+            <p> On page {{ c }}, Chapter: {{ z }} </p><br>
+        {% endfor %}
+
+
+
+    {% endfor %}
+
+
+{% endfor %}
+
+</body>
+</html>

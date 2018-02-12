@@ -1,0 +1,11 @@
+app/books/*
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+*.egg
+*.egg-info
+.tox
+.cache/
+.idea/
